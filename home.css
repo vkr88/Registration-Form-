@@ -1,0 +1,348 @@
+.mainDiv {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ background-color: rgb(250, 250, 250);
+    width: 100%;
+
+}
+
+/* vikash kumar */
+.Registration {
+    background-color: rgb(238, 238, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 2px;
+    width: 55%;
+    color: rgb(1, 47, 131);
+    margin-top: 20px;
+    
+    box-shadow: 3px 3px 10px rgb(109, 108, 108);
+}
+
+.Registration p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.shadowMainBox {
+    width: 55%;
+    margin-top: 30px;
+    box-shadow: 3px 3px 10px rgb(156, 156, 156);
+background: linear-gradient(90deg, #f4f0fa, #f8e6f0);}
+
+.formHeader {
+    background: linear-gradient(90deg, #6a11cb, #f05c88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset;
+    height: 80px;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+}
+
+.formHeader p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.mainDivForm {
+    width: 100%;
+    padding: 40px
+}
+
+.NameDiv {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.NameDiv div {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+
+}
+
+.NameDiv span {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.NameDiv input {
+    height: 35px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+
+/* vikash kumar */
+.DateOfBirth {
+
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.DateOfBirth span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.DateOfBirth select {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 4px;
+    height: 50px;
+    border: 1px solid #ccc;
+    width: 30%;
+}
+
+#emailDiv {
+    margin-top: 40px;
+}
+
+.addressDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 91%;
+}
+
+.genderDiv {
+    margin-top: 25px;
+    width: 91%;
+}
+.genderDiv input{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.addressDiv span {
+    font-weight: bold;
+    margin-bottom: 5px;
+        margin-top: 25px;
+}
+
+.addressDiv textarea {
+    width: 98%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+
+.citydiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 91%;
+    margin-top: 25px;
+}
+
+.citydiv div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.citydiv span {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.citydiv input {
+    height: 35px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.countryName {
+    margin-top: 40px;
+    width: 91%;
+}
+
+.countryName select {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.hobbiesDiv {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.hobbiesDiv span {
+    font-weight: bold;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.hobbiesOptions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.hobbiesOptions label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 160px;
+}
+
+.QualificationDiv {
+    margin-top: 30px;
+    width: 90%;
+    background-color: white;
+    
+   
+}
+
+.QualificationDiv table {
+    width: 100%;
+   border-collapse: collapse;
+}
+
+.QualificationDiv th,
+.QualificationDiv td {
+    padding: 8px;
+    text-align: center;
+    height: 60px;
+  
+}
+
+.QualificationDiv th {
+    background-color: #f8fbfc;
+    font-weight: bold;
+    height: 25px;
+}
+
+.QualificationDiv input {
+    width: 80%;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid #ddd;     
+    border-radius: 4px;
+     
+
+}
+.QualificationDiv tr{
+     border-bottom: 1px solid #ccc;
+}
+.submitBTNDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 25px;
+
+}
+
+.resetbtn {
+    background-color: white;
+    border: none;
+    color: rgb(0, 0, 0);
+    height: 35px;
+    width: 10%;
+    border-radius: 5px;
+
+}
+
+.courseDiv {
+    margin-top: 25px;
+    width: 91%;
+    gap: 10px;
+}
+
+.courseDiv label {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.courseDiv input {
+    gap: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.submitBtn {
+    background: linear-gradient(90deg, #6a11cb, #f05c88);
+    border: none;
+    color: white;
+    height: 35px;
+    width: 10%;
+    border-radius: 5px;
+    margin-right: 100px;
+}
+
+#ProfaisanationDIV{
+     background-color: rgb(238, 238, 250);
+    color: #03d86e;
+}
+
+
+
+
+.footerDiv{
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+vikash kumar */
