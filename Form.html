@@ -4,34 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Fist Project Form//Normal Project/home.css">
+    <link rel="stylesheet" href="./home.css">
     <title> Registration Form </title>
 </head>
 
 <body>
     <div class="mainDiv">
-
         <div class="Registration">
             <p>Modern Registration Form</p>
         </div>
-
-
         <div class="shadowMainBox">
             <div class="formHeader">
                 <p>Student Registration Form</p>
             </div>
 
 
-            <div class="mainDivForm">
+            <form class="mainDivForm" method="post" id="onSubmitForm">
 
                 <div class="NameDiv">
                     <div>
                         <span>First Name</span>
-                        <input type="text" placeholder="Enter first name">
+                        <input type="text" placeholder="Enter first name" name="FirstName">
                     </div>
                     <div>
                         <span> Last Name</span>
-                        <input type="text" placeholder=" Enter last name">
+                        <input type="text" placeholder=" Enter last name" name="LastName">
                     </div>
                 </div>
 
@@ -39,8 +36,6 @@
                 <div class="DateOfBirth">
                     <span class="DateOfspan">Date of Birth</span>
                     <div>
-
-
                         <select name="day" id="day">
                             <option value="">Day</option>
                             <option value="1">1</option>
@@ -112,49 +107,49 @@
                 <div class="NameDiv" id="emailDiv">
                     <div>
                         <span>Email ID</span>
-                        <input type="email" placeholder="Enter email address">
+                        <input type="email" placeholder="Enter email address" name="email">
                     </div>
                     <div>
                         <span>Mobile Number</span>
-                        <input type="number" placeholder="Enter 10-digit mobile number">
+                        <input type="number" placeholder="Enter 10-digit mobile number" name="mobile">
 
                     </div>
                 </div>
 
 
                 <div class="genderDiv">
-                  
-                   <div>
-                     <span>Gender:</span>
-                       <br>
-                    <label>
-                        <input type="radio" name="gender" value="male" /> Male
-                        <input type="radio" name="gender" value="male" /> Male
 
-                    </label>
-                   </div>
+                    <div>
+                        <span>Gender:</span>
+                        <br>
+                        <label>
+                            <input type="radio" name="gender" value="male" /> Male
+                            <input type="radio" name="gender" value="male" /> Male
+
+                        </label>
+                    </div>
 
                 </div>
                 <div class="addressDiv">
                     <span>Address</span>
                     <div>
-                        <textarea name="" id="" placeholder="Enter your Full Address" ></textarea>
+                        <textarea name="" id="" placeholder="Enter your Full Address"></textarea>
                     </div>
                 </div>
 
                 <div class="citydiv">
                     <div>
                         <span>City</span>
-                        <input type="text" placeholder="Enter city">
+                        <input type="text" placeholder="Enter city" name="cityNamr">
 
                     </div>
                     <div>
                         <span>PIN Code</span>
-                        <input type="text" placeholder="Enter 6-digit PIN Code">
+                        <input type="text" placeholder="Enter 6-digit PIN Code" name="pinCode">
                     </div>
                     <div>
                         <span>State</span>
-                        <input type="text" name="" id="" placeholder="Enter state">
+                        <input type="text" name="stateName" id="" placeholder="Enter state">
 
 
                     </div>
@@ -176,17 +171,17 @@
                 <div class="hobbiesDiv">
                     <span>Hobbies</span>
                     <div class="hobbiesOptions">
-                        <label> <input type="checkbox" name="hobbies" value="music" /> Drowing </label>
+                        <label> <input type="checkbox" name="Drowing" value="music" /> Drowing </label>
                         <label>
-                            <input type="checkbox" name="hobbies" value="music" /> Singin </label>
+                            <input type="checkbox" name="Singin" value="music" /> Singin </label>
                         <label>
-                            <input type="checkbox" name="hobbies" value="music" /> Dancing
+                            <input type="checkbox" name="Dancing" value="music" /> Dancing
                         </label>
 
                         <label>
-                            <input type="checkbox" name="hobbies" value="music" /> Skeching </label>
+                            <input type="checkbox" name="Skeching" value="music" /> Skeching </label>
                         <label>
-                            <input type="checkbox" name="hobbies" value="music" /> Others </label>
+                            <input type="checkbox" name="Others" value="music" /> Others </label>
                     </div>
                 </div>
 
@@ -195,8 +190,8 @@
                     <table>
                         <thead>
                             <th>Sr. No</th>
-                             <th>Examination</th>
-                            <th>Board</th>                           
+                            <th>Examination</th>
+                            <th>Board</th>
                             <th>Percentage</th>
                             <th>Year of Passing</th>
                         </thead>
@@ -204,33 +199,33 @@
                             <tr>
                                 <td>1</td>
                                 <td>class X</td>
-                                <td> <input type="text"></td>
-                                <td><input type="text"></td>
-                                <td><input type="text"></td>
+                                <td> <input type="text" name="BoardName"></td>
+                                <td><input type="text" name="tenMarkPercentage"></td>
+                                <td><input type="text" name="PassingYear"></td>
                             </tr>
-<!-- vikash kumar  -->
+                            <!-- vikash kumar  -->
                             <tr>
                                 <td>2</td>
                                 <td>class XI</td>
-                                <td> <input type="text"></td>
-                                <td><input type="text"></td>
-                                <td><input type="text"></td>
+                                <td> <input type="text" name="BoardName"></td>
+                                <td><input type="text" name="tenMarkPercentage"></td>
+                                <td><input type="text" name="PassingYear"></td>
                             </tr>
-                           
+
                             <tr>
                                 <td>3</td>
                                 <td>Graduation</td>
-                                <td> <input type="text"></td>
-                                <td><input type="text"></td>
-                                <td><input type="text"></td>
+                                <td> <input type="text" name="BoardName"></td>
+                                <td><input type="text" name="GraduationMarkPercentage"></td>
+                                <td><input type="text" name="PassingYear"></td>
                             </tr>
                             <tr>
 
                                 <td>4</td>
                                 <td>Masters</td>
-                                <td> <input type="text"></td>
-                                <td><input type="text"></td>
-                                <td><input type="text"></td>
+                                <td> <input type="text" name="BoardName"></td>
+                                <td><input type="text" name="MasterMarkPercentage"></td>
+                                <td><input type="text" name="PassingYear"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -240,29 +235,40 @@
                     <span>Courses Applied Far</span>
                     <div>
                         <label>
-                            <input type="radio" name="Course" value="male" /> BCA
-                            <input type="radio" name="Course" value="male" /> B.Sc
-                            <input type="radio" name="Course" value="male" /> B.Com
-                            <input type="radio" name="Course" value="male" /> B.A
+                            <input type="radio" name="BCA" value="male" /> BCA
+                            <input type="radio" name="B.SC" value="male" /> B.Sc
+                            <input type="radio" name="B.COM" value="male" /> B.Com
+                            <input type="radio" name="B.A" value="male" /> B.A
                         </label>
                     </div>
 
                 </div>
                 <div class="submitBTNDiv">
+
                     <button class="resetbtn">Reset</button>
-                    <button class="submitBtn">Submit</button>
+                    <input type="submit" class="submitBtn" name="Submit">
                 </div>
-            </div>
+            </form>
 
         </div>
-          <div class="Registration" id="ProfaisanationDIV">
+        <div class="Registration" id="ProfaisanationDIV">
             <p>Profaisanation Registration Form</p>
         </div>
-
-
         <div class="footerDiv"></div>
     </div>
 
 </body>
 
+<script>
+    const form = document.getElementById("onSubmitForm");
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault(); 
+         const formData = new FormData(form);
+        
+      for (let [key, value] of formData.entries()) {
+        console.log(key + ": " + value);
+      }
+    });
+</script>
 </html>
